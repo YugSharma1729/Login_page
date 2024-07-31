@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="form_box">
+
+        <!----------------------------------------- Register Container ------------------------------------------------------------>
+        <div class="register_container" id="register">
+
+            <div class="form_top">
+                <span>Have an account ? <a href="#" onclick=login()> Login</a></span>
+                <header>SIGN UP</header>
+            </div>
+
+            <div class="input">
+                <div class="name_input">
+                    <div class="input_box">
+                        <input class="input_field" type="text" placeholder="FirstName">
+                    </div>
+                    <div class="input_box">
+                        <input class="input_field" type="text" placeholder="LastName">
+                    </div>
+                </div>
+                <div class="detail_input">
+                    <div class="input_box2">
+                        <input class="input_field2" type="text" placeholder="Email">
+                    </div>
+                    <div class="input_box2">
+                        <input class="input_field2" type="password" placeholder="Password">
+                    </div>
+                    <div class="input_box2">
+                        <input class="submit" type="submit" value="Register">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form_bottom">
+                <div class="one">
+                    <input type="checkbox" id="register-check">
+                    <label for="register-check">Remember Me</label>
+                </div>
+                <div class="two">
+                    <label><a href="#">Terms & Conditions</a></label>
+                </div>
+            </div>
+        </div>
+
+        <!----------------------------------------- Login Container ------------------------------------------------------------>
+        <div class="login_container" id="login">
+
+            <div class="form_top">
+                <span>Don't have an account ? <a href="#" onclick=register()> Sign Up</a></span>
+                <header>LOGIN</header>
+            </div>
+
+            <div class="input">
+
+                <div class="detail_input">
+                    <div class="input_box2">
+                        <input class="input_field2" type="text" placeholder="Email">
+                    </div>
+                    <div class="input_box2">
+                        <input class="input_field2" type="password" placeholder="Password">
+                    </div>
+                    <div class="input_box2">
+                        <input class="submit" type="submit" value="Sign In">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form_bottom">
+                <div class="one">
+                    <input type="checkbox" id="login-check">
+                    <label for="login-check">Remember Me</label>
+                </div>
+                <div class="two">
+                    <label><a href="#">Forget password ?</a></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

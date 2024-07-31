@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: rgb(167, 234, 255); */
+    background-image: url(pexels-pixelcop-2680270.jpg);
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.form_box{
+    background-color: transparent;
+    height: 400px;
+    width: 512px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;  
+    overflow: hidden;
+}
+
+.register_container{
+    position: absolute;
+    right: -520px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease-in-out;
+}
+.login_container{
+    position: absolute;
+    right: 4px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease-in-out;
+}
+/*-------------------------------------------------FORM TOP ------------------------------------------------------------------- */
+.form_top span{
+    font-size: 14px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_top span a{
+    color: black;
+    font-weight: 650;
+    margin-left: 5px;
+}
+header{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+/* ------------------------------------------------INPUT ---------------------------------------------------------------------- */
+.input{
+    width: 444px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name_input{
+    display: flex;
+    gap: 21px;
+    width: 100%;
+}
+.detail_input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 0 20px;
+}
+.input_field{
+    background-color: #ededed;
+    font-size: 15px;
+    height: 30px;
+    width: 100%;
+    border-radius: 30px;
+    outline: none;
+    margin: 7px 0;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+}
+.input_field2{
+    background-color: #ededed;
+    font-size: 15px;
+    height: 30px;
+    width: 95%;
+    border-radius: 30px;
+    outline: none;
+    margin: 7px 0;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+}
+.input_field:hover,.input_field:focus{
+    background-color: rgba(175, 175, 175, 0.5);
+      
+}
+.input_field2:hover,.input_field2:focus{
+    background-color: rgba(175, 175, 175, 0.5);
+}
+
+.submit{
+    width: 99%;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(80, 213, 27);
+    margin:7px 0;
+    border-radius: 30px;
+    transition: .3s ease-in-out;
+    border: none;
+}
+.submit:hover{
+    background-color: rgb(136, 241, 94);
+}
+
+/* ------------------------------------------------------FORM BOTTOM-------------------------------------------------------------- */
+
+.form_bottom{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    margin-top: 5px;
+}
+.form_bottom .one{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.two label a{
+    text-decoration: none;
+    color: black;
+}
+.two label a:hover{
+    text-decoration: underline;
+}
